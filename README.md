@@ -9,3 +9,19 @@ Prerequisites: MTH 181 or a grade of 'C' or better in MTH 149, and CIS 260. This
 ## Overview
 
 Content is organized by chapter in alignment with the course syllabus.
+
+## Team
+
+EPT Team - Bo and Nick
+TA - Rohan Patel (v.gaudani@vikes.csuohio.edu)
+CPT - Peer programing team - Veer Gaudani (v.gaudani@vikes.csuohio.edu)
+
+1:1 Sessions avaiable starting week 2
+
+## Office Hours
+
+Dr. Yongjian Fu - 1:30-2:30 M-F
+
+## Midnight Game Jam
+
+Friday March 21st, 4:45PM - Sat March 22nd 7:00PM
