@@ -5,7 +5,7 @@ Chapter 2: Language features
 
 ## Content
 
-* [SimpleJavaPrograms.md](Simple Java Programs)
-* [SimpleProgram.md](Simple Program Example)
-* [ProgrammingErrors.md](Programming Errors)
-* [LanguageConventions.md](Language Conventions)
+* [Simple Java Programs](SimpleJavaPrograms.md)
+* [Simple Program Example](SimpleProgram.md)
+* [Programming Errors](ProgrammingErrors.md)
+* [Language Conventions](LanguageConventions.md)
