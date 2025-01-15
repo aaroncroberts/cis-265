@@ -10,13 +10,6 @@ Prerequisites: MTH 181 or a grade of 'C' or better in MTH 149, and CIS 260. This
 
 Content is organized by chapter in alignment with the course syllabus.
 
-## Jupyter Notebooks w/ Java - VSCode
-
-Several samples are provided in Jyputer notebooks using the Java kernel.
-
-Setup Additional Kernels:
-https://code.visualstudio.com/docs/datascience/jupyter-kernel-management
-
 ## Team
 
 EPT Team - Bo and Nick
