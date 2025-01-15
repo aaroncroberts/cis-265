@@ -12,11 +12,13 @@ Content is organized by chapter in alignment with the course syllabus.
 
 ## Team
 
-EPT Team - Bo and Nick
-TA - Rohan Patel (v.gaudani@vikes.csuohio.edu)
-CPT - Peer programing team - Veer Gaudani (v.gaudani@vikes.csuohio.edu)
+Teaching team for the course:
 
-1:1 Sessions avaiable starting week 2
+* EPT Team - Bo and Nick
+* TA - Rohan Patel (v.gaudani@vikes.csuohio.edu)
+* CPT - Peer programing team - Veer Gaudani (v.gaudani@vikes.csuohio.edu)
+
+Note: 1:1 Sessions avaiable starting week 2
 
 ## Office Hours
 
