@@ -1,5 +1,52 @@
 # Overview
 
+The language specification for Java consists of rules and conventions that developers must follow.  Some of those are captured here.
+
+## Identifiers
+
+Identifiers must follow these rules:
+
+
+## Variables
+
+## Assignment Statement and Expressions
+
+variable = expression;
+
+All assingment follows this pattern. Examples:
+
+````
+    int x = 0;
+    double radius = 6.0;
+    int y = 4;
+    int x = y * 4;
+    ...
+
+    int y = j = k = 2;
+````
+
+## Named Constants
+
+Named constants are special variables that can never change in a program.  A constant is also known as a *final variable* in Java. 
+
+````
+    final int CONSTANTNAME = 1;
+````
+
+`final` is a keyword used for defining a constant.  By convention, constants are in UPPER CASE.
+
+The Math library uses these for values such as PI.
+
+The [ComputeAreaWithConstant.java](ComputeAreaWithConstant.java) is an example program that uses the PI constant.
+
+## Naming Conventions
+
+* camel Case for variables and methods: myLocalVariable
+* Proper Case for classes: MyClass
+* Upper Case for constants, seperated by _ : MAX_VALUE_HERE
+
+# Data Types
+
 DataTypes are the foundations of the language.  There are two types of data types:  Raw and Objects.
 
 ## Raw / Primitive Data Types
