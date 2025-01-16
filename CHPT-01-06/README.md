@@ -9,3 +9,4 @@ Chapter 2: Language features
 * [Simple Program Example](SimpleProgram.md)
 * [Programming Errors](ProgrammingErrors.md)
 * [Language Conventions](LanguageConventions.md)
+* [Syntax](Syntax.md)

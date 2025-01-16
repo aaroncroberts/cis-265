@@ -88,12 +88,11 @@ Raw data types have basic operations that can be used with the type:
 
 * Logical Operators:
 
-    ```
+    ````
         > >= < <=  == !=
         && ||
         bitwise:  & |
-    ```
-
+    ````
 ## Control Statements
 
 Basic control structures:
@@ -144,22 +143,3 @@ Logical control flow of if, else, switch:
             }        
     }
 ````
-
-## Closures
-
-`if` ... `else` statements do not auto close. In the following example:
-
-````
-    int x = 0;    
-    int y = 1;
-
-    if( x > y )
-
-        if( y > x )
-            System.out.print(x);
-
-    else
-        System.out.print(y);
-````
-
-This statement will **not** print to the output, since the else statement, regardless of position, will be evaluated in the nested if statement.
