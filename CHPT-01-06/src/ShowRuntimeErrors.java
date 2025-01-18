@@ -1,7 +1,10 @@
-/*
- * ShowRuntimeErrors class
- * - illustrates a runtime error in a program
- */
+/*   
+ * Name: ShowRuntimeErrors
+ * CSU ID: 
+ * CIS 265: Review
+ * Description: Illustrates a runtime error with a DivideByZeroException
+ *
+*/
 public class ShowRuntimeErrors {
     /*
      * Main entry point for the program

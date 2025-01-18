@@ -1,3 +1,10 @@
+/*   
+ * Name: ShowSyntaxErrors
+ * CSU ID: 
+ * CIS 265: Review
+ * Description:  Illustrates a compile error with an unclosed string double-quote.
+ *
+*/
 public class ShowSyntaxErrors {
     /*
      * Main entry point for the program

@@ -1,7 +1,10 @@
-/*
- * ShowLogicErrors class
- * - illustrates logic errors in programs 
- */
+/*   
+ * Name: ShowLogicErrors
+ * CSU ID: 
+ * CIS 265: Review
+ * Description: Illustrates logic errors in programs 
+ *
+*/
 public class ShowLogicErrors {
     /*
      *  Main entry point for the program 

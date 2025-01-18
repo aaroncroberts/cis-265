@@ -1,6 +1,10 @@
-/**
- * A WelcomeWithThreeMessages class
- */
+/*   
+ * Name: WelcomeWithThreeMessages
+ * CSU ID: 
+ * CIS 265: Review
+ * Description: Welcome message with three lines.
+ *
+*/
 public class WelcomeWithThreeMessages {
     /**
      * Main entry point for the program
