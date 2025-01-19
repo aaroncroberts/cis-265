@@ -162,7 +162,7 @@
         # Should show the author of the page or not.
         # The author name will be shown in the single page if and only if 
         #   1. this items been set as true and
-        #   2. "aurthor" filed been provided in the 
+        #   2. "author" filed been provided in the 
         #       A. single page frontmatter or
         #       B. "author" filed in above "globalFrontmatter" block
         showAuthor = true

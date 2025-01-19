@@ -1,7 +1,0 @@
----
-title: Prime Number
----
-
-````java
-
-````

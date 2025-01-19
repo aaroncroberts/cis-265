@@ -1,5 +1,6 @@
 ---
 title: Guidelines
+categories: [ 'info', 'course-details' ]
 ---
 # Overview
 

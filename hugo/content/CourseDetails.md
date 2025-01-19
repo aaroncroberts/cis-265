@@ -1,5 +1,6 @@
 ---
 title: Course Details
+categories: [ 'info', 'course-details' ]
 ---
 
 # CIS 265
