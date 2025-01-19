@@ -4,7 +4,7 @@ title: Setup
 
 # Overview
 
-Samples are available for reference.  In order to work with the samples, you will need to have Jave installed and configured correctly on your machine.  Directions for installing open-jdk-8 can be found online.
+Samples are available for reference.  In order to work with the samples, you will need to have Jave installed and configured correctly on your machine.  Directions for installing [open-jdk-8](https://openjdk.org/install/) can be found online.
 
 ## Source Code
 
@@ -17,3 +17,7 @@ Example compile and run:
     javac Welcome.java
     java Welcome
 ````
+
+## VSCode
+
+Extensions are setup in the vscode settings file in this repository to allow debuging and working with Java.  Recommended extensions are available in the `.vscode` folder at the root.

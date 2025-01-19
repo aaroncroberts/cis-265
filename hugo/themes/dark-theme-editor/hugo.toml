@@ -65,7 +65,7 @@
         title = "CIS 265: Introduction to Java"
 
         # Subtitle for this site, used in homepage only
-        subtitle = "learning Java after 30 years of engineering"
+        subtitle = "Learning Java"
 
         # Config about your's site logo, remove this item to hide the logo
         [params.header.logo]
@@ -127,7 +127,7 @@
         author = "Aaron C. Roberts"
         
         # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
-        description = "Course material for CIS-265"
+        description = ""
 
         # Website keywords. Theme will generate a <meta> tag for this item.
         keywords = "java,programming,cis-265"
@@ -135,11 +135,11 @@
     # Parameters applied in the homepage only
     [params.homePage]
         # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
-        siteLongDescription = "My journey through Java as a Master's student at Cleveland State University. " 
+        siteLongDescription = "This is my journey through CIS 265 as a Master's student at Clevelan State University." 
 
         # If you don't like the title of "siteLongDescription" be "Start" (default), 
         # you may change the value of this item to "Description" or something you like.
-        siteLongDescriptionTitle = ""
+        siteLongDescriptionTitle = "My Coursework"
 
         # Param to decide whether to show the most recent blog posts or not. (Default: true)
         showRecentPostsBlock = true

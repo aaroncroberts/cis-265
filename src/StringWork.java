@@ -42,8 +42,29 @@ public class StringWork {
             String word = input.nextLine();
             char arg = word.charAt(0);
 
-            System.out.print("Character entered: " + arg);       
-            
+            System.out.print("Character entered: " + arg);  
+            System.out.println();  
+
+            //
+            // Character class
+            System.out.println("Characters:");  
+            System.out.println("-------------------------------------");  
+            System.out.println("Character.isDigit('g'): " + Character.isDigit('g'));  
+            System.out.println("Character.isLetter('g'): " + Character.isLetter('g'));  
+            System.out.println("Character.isUpperCase('g'): " + Character.isUpperCase('g'));  
+            System.out.println("Character.toUpperCase('g'): " + Character.toUpperCase('g'));  
+            System.out.println("Character.toLowerCase('g'): " + Character.toLowerCase('G'));  
+            System.out.println();  
+
+            //
+            // String operations
+            System.out.print("Enter a word to examine: ");
+            word = input.nextLine();
+
+            System.out.print("length(): " + word.length());
+            System.out.print("first character: " + word.charAt(0));
+            System.out.print("last character: " + word.charAt(word.length() -1));
+            System.out.print("substring(0, 2): " + word.substring(0, 1));                                                
         }
     }           
 }
