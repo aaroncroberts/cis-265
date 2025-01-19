@@ -8,47 +8,6 @@ Prerequisites: MTH 181 or a grade of 'C' or better in MTH 149, and CIS 260. This
 
 ## Overview
 
-Content is organized by chapter in alignment with the course syllabus.
+This is a Hugo documentation site for my course work in CIS 265.  Markdown files are used to create documentation published on Github through Actions and Github Pages.
 
-* [Programming Guidelines](ProgrammingGuidelines.md)
-
-* [Chapter Review: 1-6](CHPT-01-06/README.md)
-    * [Language Conventions](CHPT-01-06/LanguageConventions.md)
-    * [Programming Errors](CHPT-01-06/ProgrammingErrors.md)
-    * [Syntax and Types](CHPT-01-06/SyntaxAndTypes.md)
-    * [Arrays](CHPT-01-06/Arrays.md)
-* [Chapter Review: 7-12](CHPT-07-12/README.md)
-
-## Teaching Team
-
-Teaching team for the course:
-
-* EPT Team - Bao and Nick
-* TA - Rohan Patel (v.gaudani@vikes.csuohio.edu)
-* CPT - Peer programing team - Veer Gaudani (v.gaudani@vikes.csuohio.edu)
-
-Note: 1:1 Sessions avaiable starting week 2
-
-## Office Hours
-
-Dr. Yongjian Fu - 1:30-2:30 M-F
-
-## Midnight Game Jam
-
-Friday March 21st, 4:45PM - Sat March 22nd 7:00PM
-
-# Recitation
-
-Focus on filling the gaps.
-
-* Interactive Reviews
-* Midterm & Reviews
-* Practice Exams
-* Work of the Week
-
-## ERAs
-
-* Collaboration with students
-* Every week there is a graded assignment
-    * 10 Work of the Week  
-    * Wows 5% of grade, administered every alternate ERAs
+This repsoitory is setup with Continuous Integration and Deployment (CI/CD).

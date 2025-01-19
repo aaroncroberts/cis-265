@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode ='en-us'
+title = 'CIS 265: Introduction to Java'
+theme = [ 'dark-theme-editor' ]

@@ -1,3 +1,6 @@
+# hugo build process
+hugo/public
+
 # nested folder
 .DS_Store
 java-console-tempalte/bin/*
