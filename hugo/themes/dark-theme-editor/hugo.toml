@@ -65,7 +65,7 @@
         title = "CIS 265: Introduction to Java"
 
         # Subtitle for this site, used in homepage only
-        subtitle = "CIS 265 Coursework"
+        subtitle = "learning Java after 30 years of engineering"
 
         # Config about your's site logo, remove this item to hide the logo
         [params.header.logo]
@@ -135,11 +135,11 @@
     # Parameters applied in the homepage only
     [params.homePage]
         # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
-        siteLongDescription = "This is my journey through the CIS 265: Introduction to Java course at Cleveland State University capturing langauge specific constructs and patterns that distnguish Java from my backround in c-sharp dotnet." 
+        siteLongDescription = "My journey through Java as a Master's student at Cleveland State University. " 
 
         # If you don't like the title of "siteLongDescription" be "Start" (default), 
         # you may change the value of this item to "Description" or something you like.
-        siteLongDescriptionTitle = "Description"
+        siteLongDescriptionTitle = ""
 
         # Param to decide whether to show the most recent blog posts or not. (Default: true)
         showRecentPostsBlock = true
