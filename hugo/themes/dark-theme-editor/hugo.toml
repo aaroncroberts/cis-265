@@ -135,7 +135,7 @@
     # Parameters applied in the homepage only
     [params.homePage]
         # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
-        siteLongDescription = "This is my journey through CIS 265 as a Master's student at Clevelan State University." 
+        siteLongDescription = "This is my journey through CIS 265 as a Master's student at Cleveland State University." 
 
         # If you don't like the title of "siteLongDescription" be "Start" (default), 
         # you may change the value of this item to "Description" or something you like.

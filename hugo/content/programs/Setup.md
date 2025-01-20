@@ -18,6 +18,8 @@ Example compile and run:
     java Welcome
 ````
 
+Several programs allow input from the command line.  Input should be entered in the same terminal where the program is started.
+
 ## VSCode
 
 Extensions are setup in the vscode settings file in this repository to allow debuging and working with Java.  Recommended extensions are available in the `.vscode` folder at the root.

@@ -6,6 +6,12 @@ categories: [ 'sample-code', 'java', 'arrays' ]
 
 Arrays are a collection of objects of the same type;
 
+## Sample Programs
+
+* [Working with Arrays](/programs/basic/ArrayWork)
+
+# Basics
+
 ## Constructing Arrays
 
 Arrays can be created in line:
@@ -15,9 +21,9 @@ Arrays can be created in line:
     int[] count = { 1,2,3,4 };
 ````
 
-## Properties
+## Size
 
-**Size** : The number of items in the array
+The number of items in the array
 
 ````
     // Create an array
@@ -27,7 +33,9 @@ Arrays can be created in line:
     System.out.ptrinln(count.Length);    
 ````
 
-**Accessing Items in the Array** : Items are accessed through the index of the item in the array. The index starts at 0, and equals 1 - array.Length.
+## Accessing Items in the Array
+
+Items are accessed through the index of the item in the array. The index starts at 0, and equals 1 - array.Length.
 
 ````
     // Create an array
