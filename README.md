@@ -13,3 +13,9 @@ Site is published here:
 This repsoitory is setup with Continuous Integration and Deployment (CI/CD).
 
 [![Deployment Status](https://github.com/aaroncroberts/cis-265/actions/workflows/hugo.yaml/badge.svg)](https://github.com/aaroncroberts/cis-265/actions/workflows/hugo.yaml)
+
+### Codes
+
+Codes are required for accessing daily exercises available in Blackboard
+
+* 1/21/2025 - 281391

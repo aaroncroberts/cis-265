@@ -6,7 +6,6 @@ categories: [ 'sample-code', 'java', 'arrays' ]
 Working with Arrays
 
 ````java
-
 /*   
  * Name: AdditionQuiz
  * CSU ID: 
