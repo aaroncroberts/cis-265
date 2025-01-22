@@ -1,5 +1,5 @@
 ---
-title: Show Logic Errors
+title: Simple If Demo
 categories: [ 'sample-code', 'java', 'logic' ]
 ---
 
