@@ -6,13 +6,22 @@ categories: [ 'sample-code', 'java', 'arrays' ]
 
 Arrays are a collection of objects of the same type;
 
-## Sample Programs
+## Basics
 
-* [Working with Arrays](/programs/basic/ArrayWork)
+Arrays are containers, or lists or objects of the same type.  The size of the array is the number of items the collection contains.
 
-# Basics
+Arrays are pointers to the memory address of the array.  Items contained in the array are accessed through indexes, and return the value for that item at that location.
 
-## Constructing Arrays
+Print the first item:
+
+````
+    int[] numbers = { 1, 2 };
+    System.out.println(numbers[0]);
+````
+
+The instance of the array is a pointer to the memory address for the items in the array.
+
+### Constructing Arrays
 
 Arrays can be created in line:
 
@@ -21,7 +30,7 @@ Arrays can be created in line:
     int[] count = { 1,2,3,4 };
 ````
 
-## Size
+### Size
 
 The number of items in the array
 
@@ -33,7 +42,7 @@ The number of items in the array
     System.out.ptrinln(count.Length);    
 ````
 
-## Accessing Items in the Array
+### Accessing Items
 
 Items are accessed through the index of the item in the array. The index starts at 0, and equals 1 - array.Length.
 
@@ -45,7 +54,7 @@ Items are accessed through the index of the item in the array. The index starts 
     System.out.ptrinln(count[1]);    
 ````
 
-## Copying Arrays
+### Copying Arrays
 
 Copying an array is not like setting variables. 
 
@@ -57,7 +66,7 @@ Copying an array is not like setting variables.
 This example assigns the pointer of `count` to the variable `another`.  This will **not** copy the array.
 
 
-## Passing objects
+### Passing objects
 
 Objects are passed as REF not by Value;
 
@@ -78,3 +87,11 @@ Objects are passed as REF not by Value;
     // Print the output
     System.out.println("Items [0]: " + items[0] + " [1]: " + items[1]);
 ````
+
+## Sample Programs
+
+* [Working with Arrays](../../programs/arrays/analyzenumbers)
+* [Binary Search](../../programs/arrays/binarysearch)
+* [Deck of Cards](../../programs/arrays/deckofcards)
+* [Linear Search](../../programs/arrays/linearsearch)
+* [Passing Arrays](../../programs/arrays/testpassarray)

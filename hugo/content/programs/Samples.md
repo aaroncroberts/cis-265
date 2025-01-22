@@ -15,67 +15,67 @@ Follow the [Setup](/programs/Setup) guide to be sure your workstation can run th
 
 ## Arrays
 
-* [Analyze Numbers](../arrays/AnalyzeNumbers)
-* [Array Work](../arrays/ArrayWork)
-* [Binary Search](../arrays/BinarySearch)
-* [Deck of Cards](../arrays/DeckOfCards)
-* [Linear Search](../arrays/LinearSearch)
-* [Test Passing Arrays](../arrays/TestPassArray)
+* [Analyze Numbers](../arrays/analyzenumbers)
+* [Array Work](../arrays/arraywork)
+* [Binary Search](../arrays/binarysearch)
+* [Deck of Cards](../arrays/deckofcards)
+* [Linear Search](../arrays/linearsearch)
+* [Test Passing Arrays](../arrays/testpassarray)
 
 ## Basic Programs
 
 Printing, working with types, formatting.
 
-* [Compute Area](../basic/ComputeArea)
-* [Compute Area With Console Input](../basic/ComputeAreaWithConsoleInput)
-* [Compute Area with Constant](../basic/ComputeAreaWithConstant)
-* [Compute Expresssion](../basic/ComputeExpression)
-* [Format Demo](../basic/FormatDemo)
-* [Show Logic Errors](../basic/ShowLogicErrors)
-* [Show Runtime Errors](../basic/ShowRuntimeErrors)
-* [Simple If Demo](../basic/SimpleIfDemo)
-* [String Work](../basic/StringWork)
-* [Test Method Overloading](../basic/TestMethodOverloading)
-* [Test Return Grade Method](../basic/TestReturnGradeMethod)
-* [Test Void Method](../basic/TestVoidMethod)
-* [Welcome](../basic/Welcome)
-* [Welcome With Three Messages](../basic/WelcomeWithThreeMessages)
+* [Compute Area](../basic/computearea)
+* [Compute Area With Console Input](../basic/computeareawithconsoleinput)
+* [Compute Area with Constant](../basic/computeareawithconstant)
+* [Compute Expresssion](../basic/computeexpression)
+* [Format Demo](../basic/formatdemo)
+* [Show Logic Errors](../basic/showlogicerrors)
+* [Show Runtime Errors](../basic/showruntimeerrors)
+* [Simple If Demo](../basic/simpleifdemo)
+* [String Work](../basic/stringwork)
+* [Test Method Overloading](../basic/testmethodoverloading)
+* [Test Return Grade Method](../basic/testreturngrademethod)
+* [Test Void Method](../basic/testvoidmethod)
+* [Welcome](../basic/welcome)
+* [Welcome With Three Messages](../basic/welcomewiththreemessages)
 
 ## Computing Samples
 
 Convering and working with numeric operations, integers, and datatypes.
 
-* [Addition Quiz](./computing/AdditionQuiz)
-* [Compute BMI](./computing/ComputeAndInterpretBMI)
-* [Compute 3 number average](./computing/ComputeAverage)
-* [Compute Change](./computing/ComputeChange)
-* [Compute Loan](./computing/ComputeLoan)
-* [Display Time](./computing/DisplayTime)
-* [Show Current Time](./computing/ShowCurrentTime)
+* [Addition Quiz](./computing/additionquiz)
+* [Compute BMI](./computing/computeAndInterpretbmi)
+* [Compute 3 number average](./computing/computeaverage)
+* [Compute Change](./computing/computechange)
+* [Compute Loan](./computing/computeloan)
+* [Display Time](./computing/displaytime)
+* [Show Current Time](./computing/showcurrenttime)
 
 ## Math
 
 Programs working with the Math library
 
-* [Compute Angles](../math/ComputeAngles)
-* [Greatest Common Divisor](../math/GreatestCommonDivisor)
-* [Increment](../math/Increment)
-* [Incrementing](../math/Incrementing)
-* [Math Work](../math/MathWork)
-* [Multiplication Tables](../math/MultiplicationTable)
+* [Compute Angles](../math/computeangles)
+* [Greatest Common Divisor](../math/greatestcommondivisor)
+* [Increment](../math/increment)
+* [Incrementing](../math/incrementing)
+* [Math Work](../math/mathwork)
+* [Multiplication Tables](../math/wultiplicationtable)
 
 ## Processing Input
 
 Working with input data from the keyboard.  
 
-* [Chinese Zodiac](../processing-input/ChineseZodiac)
-* [Deciaml To Hex](../processing-input/DecimalToHex)
-* [Farenheit To Celsius](../processing-input/FarenheitToCelsius)
-* [Hex Digit to Decimal](../processing-input/HexDigitToDecimal)
-* [Leap Year](../processing-input/LeapYear)
-* [Lottery](../processing-input/Lottery)
-* [Order Cities](../processing-input/OrderCities)
-* [Palindrome](../processing-input/Palindrome)
-* [Prime Number](../processing-input/PrimeNumber)
-* [Sales Tax](../processing-input/SalesTax)
-* [Subtraction Quiz](../processing-input/SubtracionQuiz)
+* [Chinese Zodiac](../processing-input/chinesezodiac)
+* [Deciaml To Hex](../processing-input/decimaltohex)
+* [Farenheit To Celsius](../processing-input/farenheittocelsius)
+* [Hex Digit to Decimal](../processing-input/hexdigittodecimal)
+* [Leap Year](../processing-input/leapyear)
+* [Lottery](../processing-input/lottery)
+* [Order Cities](../processing-input/ordercities)
+* [Palindrome](../processing-input/palindrome)
+* [Prime Number](../processing-input/primenumber)
+* [Sales Tax](../processing-input/salestax)
+* [Subtraction Quiz](../processing-input/subtracionquiz)
