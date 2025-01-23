@@ -17,7 +17,7 @@ That research lead me to [Hugo](https://gohugo.io/).  This is a system written i
 
 ## Samples
 
-Code samples are available for working with Java directly.  Follow the [Setup](/progrmas/Setup) guide for working with the Java source code.
+Code samples are available for working with Java directly.  Follow the [Setup](/progrmas/setup) guide for working with the Java source code.
 
 ## Building Documentation
 
