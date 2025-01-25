@@ -22,6 +22,12 @@ The course consists of daily asignments, weekly recitation work, and homework as
 1. A subclass does not inherit the parents constructor: **true**
 2. The keyword that allows for inheritence between classes is `extends`: **true**
 
+1/23/2025:
+
+**Code: 552747**
+1. If Class Dog is a subclass of Animal, which of the following statement is acceptable? **Animal a = new Dog()**;
+2. Which of the following statements is false? **Consturctors must have empty params**
+
 # Assignments:
 
 Programming assignments are defined in the `/Homework` section.

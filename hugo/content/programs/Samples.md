@@ -21,6 +21,7 @@ Follow the [Setup](/programs/Setup) guide to be sure your workstation can run th
 * [Deck of Cards](../arrays/deckofcards)
 * [Linear Search](../arrays/linearsearch)
 * [Test Passing Arrays](../arrays/testpassarray)
+* [Selection Sort](../arrays/selectionsort)
 
 ## Basic Programs
 
@@ -78,4 +79,15 @@ Working with input data from the keyboard.
 * [Palindrome](../processing-input/palindrome)
 * [Prime Number](../processing-input/primenumber)
 * [Sales Tax](../processing-input/salestax)
-* [Subtraction Quiz](../processing-input/subtracionquiz)
+* [Subtraction Quiz](../processing-input/subtractionquiz)
+
+## Object Oriented Programming
+
+Patterns and practices for object oriented programming
+
+* [Principals](../oop/principals)
+* [Greatest Common Divisor Method](../oop/greatestcommondivisormethod)
+* [Modularize Code](../oop/modularizecode)
+* [Prime Number Method](../oop/primenumbermethod)
+* [Random Characters](../oop/randomcharacters)
+* [Count Letters in Array](../oop/countlettersinarray)
