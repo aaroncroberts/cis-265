@@ -22,6 +22,7 @@ Follow the [Setup](/programs/Setup) guide to be sure your workstation can run th
 * [Linear Search](../arrays/linearsearch)
 * [Test Passing Arrays](../arrays/testpassarray)
 * [Selection Sort](../arrays/selectionsort)
+* [Multi-Dimension Arrays](../arrays/multideimnsionarrays)
 
 ## Basic Programs
 
