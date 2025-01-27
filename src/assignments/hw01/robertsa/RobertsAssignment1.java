@@ -1,9 +1,9 @@
 package robertsa;
 /*   
- * Name: Main
+ * Name: RobertsAssignment1
  * CSU ID: 6003115
  * CIS 265: Assignment 1
- * Description: A program that allows a user to create song objects, then display them at the console 
+ * Description: A program that allows a user to create song objects and display them
 */
 import java.util.Scanner;
 import robertsa.Song;
