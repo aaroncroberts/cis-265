@@ -1,3 +1,4 @@
+package robertsa;
 /*   
  * Name: Main
  * CSU ID: 6003115
@@ -10,7 +11,7 @@ import robertsa.Song;
 /**
  * The Main class
  */
-public class Main{
+public class RobertsAssignment1 {
     /**
      * Main entry point for the program
      * 

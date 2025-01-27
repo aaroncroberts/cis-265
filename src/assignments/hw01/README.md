@@ -6,7 +6,7 @@ The user will be prompted to enter a number, 1-10, and subsequently be prompted 
 
 Example:
 
-    Yellow Submarine, Beatles, 1968
+    Yellow Submarine, The Beatles, 1969
 
 After listing all the Song, the program prints Goodbye.
 
@@ -23,7 +23,7 @@ This will run the `javac` comamnd correctly for the assignment and dependent pac
 To run the program, execute the `java` command from the root, after compiling:
 
 ````bash
-    java Main
+    java robertsa.RobertsAssignment1
 ````
 
 Sample program compile, run, and output:
