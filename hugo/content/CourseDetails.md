@@ -22,8 +22,13 @@ Topics and review material for the Java language spec
 
 ## Teaching Team
 
-* EPT Team - Bao and Nick
-* TA - Rohan Patel (v.gaudani@vikes.csuohio.edu)
+* EPT Team
+    * Bao Nguyen
+    * Spencer York [s.t.york@vikes.csuohio.edu](mailto:s.t.york@vikes.csuohio.edu)
+* TA Rohan Patel 
+    * Email [r.d.patel45@vikes.csuohio.edu](mailto:r.d.patel45@vikes.csuohio.edu)
+    * Days: Monday, Wednesday 2:30-3:30
+    * Zoom Meeting link: [blackboard link](https://applications.zoom.us/lti/rich)
 * CPT - Peer programing team - Veer Gaudani (v.gaudani@vikes.csuohio.edu)
 
 Note: 1:1 Sessions avaiable starting week 2

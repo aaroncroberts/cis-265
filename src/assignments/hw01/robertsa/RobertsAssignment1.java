@@ -46,7 +46,8 @@ public class RobertsAssignment1 {
             for( Song s: songs){
                 // Foreach song, print using the toString() method we created
                 System.out.println(s);
-            }            
+            }  
+                      
         }
         catch(Exception error){
             // Error handling for the Scanner

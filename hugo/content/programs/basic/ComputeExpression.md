@@ -1,5 +1,5 @@
 ---
-title: Copmute Expression
+title: Compute Expression
 categories: [ 'sample-code', 'java' ]
 ---
 

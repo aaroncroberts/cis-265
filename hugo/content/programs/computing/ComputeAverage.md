@@ -1,5 +1,5 @@
 ---
-title: Copmute Average
+title: Compute Average
 categories: [ 'sample-code', 'java', 'math' ]
 ---
 

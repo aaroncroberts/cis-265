@@ -28,6 +28,29 @@ The course consists of daily asignments, weekly recitation work, and homework as
 1. If Class Dog is a subclass of Animal, which of the following statement is acceptable? **Animal a = new Dog()**;
 2. Which of the following statements is false? **Consturctors must have empty params**
 
+1/27/2025:
+
+**Code: 110616**
+1. What is the output of the segment (s1==s2): **false** Strings created with new String() get a new ObjectID
+2. What is the output of the segment (s1==s2): **true** String literals are unique, and will use the same pointer
+
+1/28/2025
+
+**Code: 119174**
+1. What class do hava provide for Java tests I/O: **File** -> IO is the Package
+2. Rercusion is a method that calls itself: **true**
+
+1/29/2025
+
+**Code: 221477**
+1. How many base cases must a recursive function have? **1**
+2. A recursive can only have one recusrsive call: **false**
+
+1/30/2025
+
+**Code: 466282**
+1. Solve recursive function counts.
+
 # Assignments:
 
 Programming assignments are defined in the `/Homework` section.
