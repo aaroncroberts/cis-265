@@ -11,7 +11,7 @@ import robertsa.Song;
 /**
  * The Main class
  */
-public class RobertsAssignment1 {
+public class RobertsAssignment2 {
     /**
      * Main entry point for the program
      * 

@@ -2,97 +2,130 @@
 title: Songs From File
 ---
 
-# Assignment 1 - Song
+# Assignment 2 - Song from File
+Due: 12:00pm, Feb. 3, 2025
+### General Description
 
-**Due**: 12pm, Monday, Jan 27, 2025
-100 points
+In this assignment, you will create a Java program to read songs from an input file.
 
-## Description
-In this assignment, you will write a Java program to create an array of songs.
+1. The input file path is passed in as argument at command line, e.g, “C:\Users\2343434\OneDrive - Cleveland
+State University\Teaching\CIS 265\Spring 2024\Assignments\Assignment 3\song.txt”. You should use the
+absolute path of the file. Use the double quotation marks if the path contains spaces.
+2. You need to specify the command line argument in your IDE, usually in “Runtime Configuration”.
+3. The parameter String[] args in the main method contains the command line arguments, where args[0]
+contains the first argument.
+4. If the program is run with incorrect number of arguments, your program must print an error message such
+as “Incorrect number of arguments. Please provide input file path as argument.”, and then exit.
+5. Each line in the input file represents a song. There are 3 fields in each line: title, artist, and year. The fields
+are separated by comma, “,”. 
 
-1. The program must include a package with two classes, a main class and a Song class.
-2. The main class processes the input and output, creates an Array to store the songs, and then
-print the Array. The Song class represents the objects which are songs.
-3. The program will first ask the user to input the number of songs to be created. The number
-should be from 1 to 10. Otherwise, the program prints “I cannot create xxx songs!” where
-xxx is the input number, and prompts the user again.
-4. You must create an Array of Song in your main class. The size of the Array is decided by the
-number given by the user. Each element of the Array will refer to a Song object.
-5. The program then prompts the user to input details of each song including title, artist, and
-year. It then uses Song’s constructor to create a Song object and add it to the Array.
-6. After all songs are created, the program will print them from the Array
-7. The program must implement a Song class as specified in the following UML diagram.
+For example, the input file song.txt file may contain:
 
-UML Spcification for Song:
+````text
+Taylor Swift,Bad Blood,2014
+Jefferson Airplane,White Rabbit,1967
+Muddy Waters,Rollin’ Stone,1948
+50 Cent,In Da Club,2002
+The Police,Roxanne,1979
+````
 
-| Song |
-|------|
+6. The program will read the lines, create songs accordingly, and store the songs in an Array. You can assume
+there are no more than 10 songs in the file.
+7. A sample run will look like this where the green texts are user inputs:
+
+Songs Found in the file C:\Users\2343434\OneDrive - Cleveland State University\Teaching\CIS 265\Assignments\Assignment 2\song.txt
+Bad Blood,Taylor Swift,2014
+White Rabbit,Jefferson Airplane,1967
+Tiny Dancer,Elton John,1993
+Rollin’ Stone,Muddy Waters,1948
+In Da Club,50 Cent,2008
+Goodbye.
+
+## Implementation Requirements
+
+The program must implement a main class and a Song class which are specified in the following UML class
+diagram.
+
+| Song        |
+| ----------- |
 | - title: String |
 | - artist: String |
 | - year: int |
-| << constructor >> + Song () | 
-| << constructor >> + Song (String, String, int) |
-| +toString():void |
+| <<constructor>> + Song () |
+| <<constructor>> + Song (String, String, int) |
+| +toString():String | 
+||
 
-8. The Song class should have a constructor that takes two strings and an integer to create a
-Song object.
-9. The Song class should have a method toString() that returns a string, which contains the
-song’s title, artist, and year, separated by comma, “,”. This method is called implicitly when
-a song is printed, e.g., System.out.print(s).
-10. A sample run will look like this, where the green texts are user inputs:
+* All classes must be in the same package. The package name must start with your last name. For example, if
+your last name is “Long”, your package name must start with “Long” such as “LongCIS265”.
+* You main class file name must start with your last name. For example, if your last name is “Spiderman”,
+your main class file name must start with “Spiderman” such as “Spiderman2.java”.
+* The Song class is the same as in Assignment 1. You may reuse it from assignment 1.
+* You can use Integer.parseInt() to convert a String to an int, e.g.,
+int i = Integer.parseInt(“944”);
+will assign 944 to i;
+* Since I/O exceptions are checked exceptions, your main class must handle exceptions. You may use the
+try/catch or throw IOException. To throw exceptions, you declare it as:
+public static void main(String[] args) throws IOException
+* Your program must close the input files after it is done, unless it is put in the try-with-resource block.
+* You can assume that input file has the correct format. You will earn bonus points for handling incorrect
+input formats.
 
-````
-    How many songs do you have(1-10): 0
-    I cannot create 0 song!
-    How many songs do you have(1-10): 11
-    I cannot create 11 song!
-    How many songs do you have(1-10): 3
-    Song 1 title:As It Was
-    Song 1 artist:Harry Styles
-    Song 1 year:2022
-    Song 2 title:Truth Hurts
-    Song 2 artist:Lizzo
-    Song 2 year:2017
-    Song 3 title:Without You
-    Song 3 artist:Harry Nilson
-    Song 3 year:1971
-    As It Was,Harry Styles,2022
-    Truth Hurts,Lizzo,2017
-    Without You,Harry Nilson,1971
-    Goodbye.
-````
+## Submission
 
-### Notes
+This is an individual assignment. Each student needs to submit the source code files of the Java program on
+Blackboard.
 
-- You need to create an array of Song.
-- It may be easier to create and test the Song class first.
-- The Scanner’s nextInt() method does NOT read the newline character. You need to call a
-nextLine() after nextInt() to discard the newline character.
+1. Put all you Java files in a folder. Please name the folder after your package name, for example,
+FuAssign2. Compress the folder into a .zip file and submit the .zip file.
+2. You need to only submit the source code, i.e., the Java files.
+3. You may submit multiple time. Your most recent submission before the deadline will be graded.
 
-### General Requirements
+## Grading
 
-- Your program must include two Java files, one for the main class and the other for the Song
-class.
-- Both classes must be in the same package. Your package name must start with your last
-name. For example, if your last name is “King”, your package name should start with
-“King”, e.g., KingCIS265.
-- You must name your main class under your last name, e.g., KingAssignment1.java. Your
-Song class must be named as Song.java.
-- The package name must also be the name of the folder where the java files are in.
-- You can assume that user inputs are the correct format. Exception handling is optional.
-
-### Submission
-
-This is an individual assignment. Each student needs to submit the source code files of the Java
-program on Blackboard.
-
-1. You must submit a zip file of the package, i.e., the folder with your source files.
-2. You need to submit only the source code, i.e., the Java files.
-3. You may submit multiple time. Your most recent submission before the deadline will be
-graded.
-V. Grading
 1. A program that does not run will receive 0 point.
-2. There is a 10-20 points deduction for each major error, e.g., missing a song in printout.
+2. There is a 10-20 points deduction for each major error, e.g., missing a song in the output.
 3. There is a 1-9 points deduction for each minor error, e.g., a spelling error in printed message.
 4. A program that does not follow the guidelines will lose 1-10 points.
 5. Any type of cheating is not tolerated. You may be asked to explain your program in person.
+
+## Bonus features (optional)
+
+If a line in the input file has incorrect format, your program will print an error message with the line, skip the
+line and continue. The following are possible formatting errors your program can handle:
+
+1. (5 points) if the line does not have 3 fields;
+2. (5 points) if the third field is not an integer;
+
+For example, for the following lines in the input file,
+
+````text
+    Chuck Berry, Brown Eyed Handsome Man
+    Roxanne,The Police,5.02
+    Maybe I’m Amazed,Paul McCartney,1987,Beatle
+````
+
+You program will print:
+
+````text
+    Invalid input: Chuck Berry, Brown Eyed Handsome Man
+    Invalid input: Roxanne,The Police,5.02
+    Invalid input: Maybe I’m Amazed,Paul McCartney,1987,Beatle
+````
+
+The incorrect lines will be skipped. The correctly formatted lines should be handled as usual.
+
+A sample run with error handling:
+
+````text
+    Invalid input: Chuck Berry, Brown Eyed Handsome Man
+    Invalid input: Roxanne,The Police,5.02
+    Invalid input: Maybe I’m Amazed,Paul McCartney,1987,Beatle
+    Songs Found in the file C:\Users\2374773\OneDrive - Cleveland State University\Teaching\CIS 265\Spring 2025\Assignments\Assignment 2\songswitherrors.txt
+    Bad Blood,Taylor Swift,2014
+    White Rabbit,Jefferson Airplane,1967
+    Tiny Dancer,Elton John,1993
+    Rollin’ Stone,Muddy Waters,1948
+    In Da Club,50 Cent,2008
+    Goodbye.
+````
