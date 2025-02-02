@@ -1,5 +1,5 @@
 package robertsa;
-import java.io.BufferedReader;
+
 /*   
  * Name: RobertsAssignment2
  * CSU ID: 6003115
@@ -7,7 +7,9 @@ import java.io.BufferedReader;
  * Description: A program that reads a file translates each row in the file into a song
 */
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.BufferedReader;
 
 /**
  * The Main class
@@ -24,124 +26,132 @@ public class RobertsAssignment2 {
         //
         // process the arguments passed to the program
         // and get a file object at the specified path
-        File file = processArgs(args);
+        String path = processArgs(args);
+        File file = getFile(path);
         
         if( file != null ){
         
-            // Create an array of songs
-            Song[] songs = createSongs(file);
-        
+            //
+            // Create an array of songs from the file
+            Song[] songs = createSongsUsingFileReader(file);
+
             //
             // Print the songs
+            System.out.println("Found " + songs.length + " songs!");
             for( Song s: songs){
                 // Foreach song, print using the toString() method we created
                 System.out.println(s);
             }                        
         }
-        else{                
+        else {                
             // No file
-            System.out.println("No file found! Check the path...");
+            System.out.println("Verify the file...");
         }
                 
         System.out.println("Goodbye.");
     }  
 
     /**
-     * Processes the arguments and provides path for a file
-     * from args[0]
+     * Processes the arguments for the program
+     * args[0] - path to file
      * 
      * @param args the argument array to get the path from
-     * @return File instnace from args[0]
+     * @return path to the file
      * 
      */
-    public static File processArgs(String[] args){        
-        File file;
-
+    public static String processArgs(String[] args){        
+        String path;
+        
         // Validate
-        if( args.length == 0){
-            // no path provided in args
-            file = null;
+        if(args.length != 1){
+            // 
+            // Invalid call to the program        
+            System.out.println("Invalid arguments!"); 
+            printUsage();
+        
+            path = null;            
         }
         else {
-            try{
-                //
-                // Try to create a file from the path                
-                file = new File(args[0]);
-                System.out.println("File located! Searching for songs...");
-            }
-            catch(Exception error){
-                // unable to create a file from the path
-                System.out.println("Invalid File: " + args[0]);  
-                System.out.println("Error: " + error.getMessage());
+            //
+            // pull the argument we will use for the path   
+            path = args[0];
+
+            //
+            // Be sure we don't have an empty string
+            if( path.equals("")){
+            
+                // Path was an empty string                            
+                System.out.println("No path spcified!");                            
+                path = null;
+            }            
+        }        
+        // return the path
+        return path;
+    }
+
+    /**
+     * Gets a File object from the path specified
+     * 
+     * @param path the path of the file to create
+     * @return File object loaded from the path
+     * 
+     */
+    public static File getFile(String path){
+        // 
+        File file = null;
+
+        try{
+
+             //
+            // we have a path, so check that its a file
+            // - create an abstract file, then check that it exists
+            file = new File(path);
+                                
+            if(!file.exists()){
+                // Not a file
+                System.out.println("The path: " + path + " is not a file!");
+                
                 file = null;
-            }                       
+            }
         }
-        // return the file
+        catch(Exception error){
+            //
+            // File was not located
+            System.out.println("An error occurred! Error: " + error.getMessage());
+            file = null;
+        }
+
         return file;
     }
 
     /**
-     * Gets the count of rows in the file
+     * Reads the file contents using a buffered readers. This provies
+     * easire access to the full line, instead of processing individual characters
      * 
-     * @param file the file to get row counts from
-     * @return The count of rows in the file
-     */
-    public static int getRowCount(File file){
-        int lineCount = 0;
-
-        // Create a file reader to read data from the file
-        try(FileReader fr = new FileReader(file)){        
-            // Create a buffered reader to read data a line at a time
-            try(BufferedReader reader = new BufferedReader(fr)){
-                //
-                // Count each line                                
-                while(reader.readLine() != null){
-                    lineCount++;
-                }
-            }            
-        }    
-        catch(Exception error) {           
-            // Unable to access the file
-            System.out.println("Unable to get rows from file!");
-            System.out.println("Error: " + error.getMessage());            
-        }   
-       
-        return lineCount;
-    }
-
-    /**
-     * Creates songs from the file
-     * - each line is read, and parsed into a Song instance
-     * - invalid lines will not create songs
+     * @param file the File object to read data from
+     * @return Song[] array of songs
      * 
-     * @param file the file that contains the song data
-     * @return an array of Song objects
      */
-    public static Song[] createSongs(File file){
-        // Our result to return
-        Song[] songs;
+    public static Song[] createSongsUsingBufferedReader(File file){
+        // Default initialization
+        Song[] songs = null;
 
-        // Determine how may songs to make
-        int count = getRowCount(file); 
+        // Determine how may songs to make and initalize the array
+        int count = getFileRowCount(file); 
 
-        //
-        // If we don't have rows, we don't have songs
-        if( count == 0 ){
+        // Only proceed if we have rows of data
+        if( count > 0 ){
             //
-            System.out.println("There were now rows in the file...");  
-        }
-        else {            
-            //
-            // There is data in the file, so proceed to create songs
-            // the max number of songs is == to the number of rows in the file
+            // Initialize our array
             songs = new Song[count];
-            int index = 0;
 
             // Create a file reader to read data from the file
-            try(FileReader fr = new FileReader(file)){        
+            try(FileReader fr = new FileReader(file)){                 
                 // Create a buffered reader to read data a line at a time
-                try(BufferedReader reader = new BufferedReader(fr)){
-                
+                try(BufferedReader reader = new BufferedReader(fr)){    
+                    
+                    int index = 0;
+                    //
                     // while the stream is ready, read data
                     while(reader.ready()){
                         
@@ -149,7 +159,7 @@ public class RobertsAssignment2 {
                         String line = reader.readLine();
                                     
                         // create the song from the line (string)
-                        Song song = createSongFromLine(line, ",");
+                        Song song = createSong(line, ",");
                         
                         //
                         // Check that we have a song to add
@@ -168,13 +178,126 @@ public class RobertsAssignment2 {
                 }
             }
             catch(Exception error) {           
-                // Unable to access the file
-                System.out.println("Unable to get data from file!");
-                System.out.println("Error: " + error.getMessage());
-            }   
+                //
+                // Unable to load file
+                System.out.println("Unable to get data from file! Error: " + error.getMessage());
+            }     
         }
-                        
+        
         return songs;
+    }
+
+    /**
+     * Reads the file using a FileReader only
+     * - requires breaking on line breaks, then on the values
+     * 
+     * @param file the File object to read data from
+     * @return Song[] array of songs
+     * 
+     */
+    public static Song[] createSongsUsingFileReader(File file){
+        // Default initialization
+        Song[] songs = null;
+
+        // Determine how may songs to make and initalize the array
+        int count = getFileRowCount(file); 
+
+        //
+        // Only proceeed if we have rows in the file
+        if( count > 0 ){
+            // Initialize our array
+            songs = new Song[count];
+
+            // Create a file reader to read data from the file
+            try(FileReader reader = new FileReader(file)){                                 
+                //
+                // Local variables for processing the file data
+                String line = new String();
+                int index = 0;
+                int character;                                
+                
+                //
+                // Read the stream, processing a line at a time
+                // - loop until the end of the file (-1)
+                while((character = reader.read()) != -1){
+                        
+                    // Read the data from the stream up to the new line
+                    if((char)character != '\n' && (char)character != '\r')
+                    {   
+                        // build the line of characters                          
+                        line += (char)character;
+                        continue;
+                    }
+                    else {
+                        //
+                        //  create a song from the line of text
+                        songs[index] = createSong(line, ",");
+                        line = "";
+                        index++;                             
+                    }                               
+                }
+
+                //  Add the last line of text
+                songs[index] = createSong(line, ",");                
+                
+                // Close the reader
+                reader.close();
+            }
+            catch(Exception error){
+                //
+                // Unable to read data from file
+                System.out.println("Unable to read data from file! Error: " + error.getMessage());
+                songs = null;
+            }            
+        }
+            
+        return songs;
+    }
+
+    /**
+     * Gets the count of rows in the file
+     * 
+     * @param file the file to get row counts from
+     * @return The count of rows in the file
+     */
+    public static int getFileRowCount(File file){
+        int count = 0;
+
+        // Create a file reader to read data from the file
+        try(FileReader reader = new FileReader(file)){                                 
+            //
+            // the current character
+            int character;                                
+            
+            // read from the stream until the end of file
+            while((character = reader.read()) != -1){
+                //
+                // Keep looping until we get a new line
+                if((char)character != '\n' && (char)character != '\r')
+                {                       
+                    continue;
+                }
+                else {
+                    // Reached a new line;
+                    count++;
+                }                
+            }
+
+            // count the last line
+            count++;
+            
+            //            
+            // Close the reader
+            reader.close();
+        }
+        catch(Exception error){
+            //
+            // Unable to read data from file
+            System.out.println("Unable to read data from file! Error: " + error.getMessage());
+            count = -1;
+        } 
+       
+        return count;
     }
 
     /**
@@ -185,7 +308,7 @@ public class RobertsAssignment2 {
      * @param line the string data for creating the song
      * @return Song instance 
      */
-    public static Song createSongFromLine(String line, String seperator){
+    public static Song createSong(String line, String seperator){
         Song song = null;
                 
         try{
@@ -249,5 +372,23 @@ public class RobertsAssignment2 {
         }
                     
         return value;
+    }
+
+    /**
+     * Prints the usage of the program to the output
+     * 
+     * @return void
+     */
+    public static void printUsage(){
+        //
+        // Prints the correct usage of the program        
+        System.out.println("-----------------------------");
+        System.out.println("");
+        System.out.println("Arguments:");
+        System.out.println("    - path | quoted path to file");
+        System.out.println("");
+        System.out.println("Usage:");
+        System.out.println("");
+        System.out.println("java robertsa.RobertsAssignment2 path");
     }
 }

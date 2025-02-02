@@ -6,10 +6,10 @@
     "configurations": [        
         {
             "type": "java",
-            "name": "Launch Program",
+            "name": "HW02 - Launch",
             "request": "launch",
             "mainClass": "robertsa.RobertsAssignment2",
-            "args": [ "/Users/aaron/Repos/github/cis-265/src/assignments/hw02/robertsa/songs1.txt" ]
+            "args": [ "${workspaceFolder}/robertsa/songs.txt" ]
         }
     ]
 }

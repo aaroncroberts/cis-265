@@ -6,7 +6,7 @@
 echo 'Compiling project files...'
 
 # compile the java files and packages
-javac robertsa/RobertsAssignment1.java robertsa/Song.java
+javac robertsa/*.java
 
 # all done
 echo 'Done!'
