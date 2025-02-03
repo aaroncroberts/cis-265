@@ -38,13 +38,13 @@ Basic validation is handled by the program.  The following conditions are handle
 
 Files used for testsing are part of the respository:
 
-* [blank data](/robertsa/songs-invalid-blank-data.txt)
-* [invavlid columns](/robertsa/songs-invalid-columns.txt)
-* [invalid content](/robertsa/songs-invalid-content.txt)
-* [invalid no row data](/robertsa/songs-invalid-nodata.txt)
-* [invalid year](/robertsa/songs-invalid-year.txt)
-* [mixed data](/robertsa/songs-mixed.txt)
-* [correct file](/robertsa/songs.txt)
+* [blank data](/src/assignments/hw02/robertsa/songs-invalid-blank-data.txt)
+* [invavlid columns](/src/assignments/hw02/robertsa/songs-invalid-columns.txt)
+* [invalid content](/src/assignments/hw02/robertsa/songs-invalid-content.txt)
+* [invalid no row data](/src/assignments/hw02/robertsa/songs-invalid-nodata.txt)
+* [invalid year](/src/assignments/hw02/robertsa/songs-invalid-year.txt)
+* [mixed data](/src/assignments/hw02/robertsa/songs-mixed.txt)
+* [correct file](/src/assignments/hw02/robertsa/songs.txt)
 
 ## Running the Program
 
