@@ -7,6 +7,8 @@ title: Song
 **Due**: 12pm, Monday, Jan 27, 2025
 100 points
 
+[CIS265 - HW01 Github Project](https://github.com/aaroncroberts/cis-265/tree/main/src/assignments/hw01)
+
 ## Description
 In this assignment, you will write a Java program to create an array of songs.
 

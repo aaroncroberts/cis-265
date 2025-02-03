@@ -3,7 +3,11 @@ title: Songs From File
 ---
 
 # Assignment 2 - Song from File
+
 Due: 12:00pm, Feb. 3, 2025
+
+[CIS265 - HW02 Github Project](https://github.com/aaroncroberts/cis-265/tree/main/src/assignments/hw02)
+
 ### General Description
 
 In this assignment, you will create a Java program to read songs from an input file.

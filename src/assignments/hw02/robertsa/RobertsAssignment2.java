@@ -7,7 +7,6 @@ package robertsa;
  * Description: A program that reads a file translates each row in the file into a song
 */
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.BufferedReader;
 
@@ -22,20 +21,16 @@ public class RobertsAssignment2 {
      * 
      */    
     public static void main(String[] args){
-
         //
         // use the args to create a file object to process
-        String path = processArgs(args);
+        String path = processArgs(args);        
         File file = getFile(path);
-        
-        if( file != null ){
-        
+                
+        if(file != null){
             //
             // Create an array of songs from the file
             Song[] songs = createSongsUsingFileReader(file);
             
-            //Song[] songs = createSongsUsingBufferedReader(file);
-
             // Print the songs
             System.out.println("Found " + songs.length + " songs!");
             for( Song s: songs){
@@ -45,7 +40,7 @@ public class RobertsAssignment2 {
         }
         else {                
             // No file
-            System.out.println("Verify the file...");
+            System.out.println("Verify file path!");
         }
                 
         System.out.println("Goodbye.");
@@ -256,28 +251,28 @@ public class RobertsAssignment2 {
      * 
      */
     public static File getFile(String path){
-        // 
+        // Our file to return
         File file = null;
 
-        try{
-
-             //
+        //
+        // Path validation for the file
+        if(path != null && !path.equals("") ){ 
+            //       
             // we have a path, so check that its a file
-            // - create an abstract file, then check that it exists
-            file = new File(path);
-                                
-            if(!file.exists()){
-                // Not a file
-                System.out.println("The path: " + path + " is not a file!");
-                
-                file = null;
-            }
-        }
-        catch(Exception error){
-            //
-            // File was not located
-            System.out.println("An error occurred! Error: " + error.getMessage());
-            file = null;
+            try{
+                // Create an abstract file, then check that it exists            
+                file = new File(path);
+                                   
+                if(!file.exists()){                  
+                   System.out.println("The path: " + path + " is not a file!");                   
+                   file = null;
+               }
+           }
+           catch(Exception error){
+               // Error
+               System.out.println("An error occurred! Error: " + error.getMessage());
+               file = null;
+           }
         }
 
         return file;
@@ -383,14 +378,14 @@ public class RobertsAssignment2 {
     public static void printUsage(){
         //
         // Prints the correct usage of the program        
-        System.out.println("-----------------------------");
+        System.out.println("--------------------------------------------------");
+        System.out.println("Program Usage:");
+        System.out.println("    Args");
+        System.out.println("        - path | path to the data file");
+        System.out.println("--------------------------------------------------");
         System.out.println("");
-        System.out.println("Arguments:");
-        System.out.println("    - path | quoted path to file");
+        System.out.println("    java robertsa.RobertsAssignment2 /path/to/my/file.txt");
         System.out.println("");
-        System.out.println("Usage:");
-        System.out.println("");
-        System.out.println("java robertsa.RobertsAssignment2 path");
     }
 
     /**
@@ -404,30 +399,21 @@ public class RobertsAssignment2 {
     public static String processArgs(String[] args){        
         String path;
         
+        //
         // Validate
+        // - only accept 1 argument
         if(args.length != 1){
-            // 
-            // Invalid call to the program        
-            System.out.println("Invalid arguments!"); 
-            printUsage();
-        
+            //
+            // Invalid call to the program                    
+            printUsage();        
             path = null;            
         }
         else {
             //
             // pull the argument we will use for the path   
-            path = args[0];
-
-            //
-            // Be sure we don't have an empty string
-            if( path.equals("")){
-            
-                // Path was an empty string                            
-                System.out.println("No path spcified!");                            
-                path = null;
-            }            
+            path = args[0];           
         }        
-        // return the path
+
         return path;
     }
 
