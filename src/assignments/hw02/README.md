@@ -280,7 +280,7 @@ The program was modularized to make testing more straight forward, and to allow 
      */
     public static void printUsage(){}
     /**
-     * Processes the program event args to get the path
+     * Processes the program command line  args to get the path
      */
     public static String processArgs(String[] args){}
 ````
