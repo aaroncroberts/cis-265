@@ -51,6 +51,16 @@ The course consists of daily asignments, weekly recitation work, and homework as
 **Code: 466282**
 1. Solve recursive function counts.
 
+2/1/2025
+
+**Code: 262890**
+1. A tail reecursive method odes not oeprate on the results from a recursive call? **true**
+2. Solving a problem with recusion is slower than iteration? **true**
+
+**Code: 433927**
+1. 
+2. 
+
 # Assignments:
 
 Programming assignments are defined in the `/Homework` section.
