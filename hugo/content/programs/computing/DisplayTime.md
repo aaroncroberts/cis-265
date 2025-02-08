@@ -1,6 +1,6 @@
 ---
 title: Display Time
-categories: [ 'sample-code', 'java', 'string' ]
+categories: [ 'java', 'string','code samples' ]
 date: 2025-01-20
 ---
 

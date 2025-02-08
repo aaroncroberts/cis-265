@@ -1,6 +1,6 @@
 ---
 title: Show Logic Errors
-categories: [ 'sample-code', 'java', 'compiling' ]
+categories: [ 'java', 'compiling', 'code samples' ]
 date: 2025-01-20
 ---
 

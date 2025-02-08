@@ -1,6 +1,6 @@
 ---
 title: Decimal To Hex
-categories: [ 'sample-code', 'java', 'conversion' ]
+categories: [ 'java', 'conversion', 'code samples' ]
 date: 2025-01-20
 ---
 

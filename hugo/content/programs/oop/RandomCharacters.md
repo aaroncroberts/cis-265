@@ -1,6 +1,6 @@
 ---
 title: Random Characters
-categories: ['guides', 'java', 'oop' ]
+categories: ['java', 'oop', 'code samples' ]
 date: 2025-01-20
 ---
 

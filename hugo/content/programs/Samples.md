@@ -1,6 +1,6 @@
 ---
 title: Running Samples
-categories: [ 'guides', 'java', 'samples' ]
+categories: [ 'guides', 'java', 'code samples' ]
 date: 2025-01-20
 ---
 

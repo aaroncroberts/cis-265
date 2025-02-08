@@ -1,6 +1,6 @@
 ---
 title: Order Cities
-categories: [ 'sample-code', 'java', 'search' ]
+categories: [  'java', 'search', 'code samples']
 date: 2025-01-20
 ---
 

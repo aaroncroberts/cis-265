@@ -1,6 +1,6 @@
 ---
 title: Incrementing
-categories: [ 'sample-code', 'java', 'numeric-operations' ]
+categories: ['java', 'numeric-operations','code samples' ]
 date: 2025-01-20
 ---
 

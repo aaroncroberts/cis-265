@@ -1,6 +1,6 @@
 ---
 title: Lottery
-categories: [ 'sample-code', 'java', 'search' ]
+categories: [ 'java', 'math', 'code samples' ]
 date: 2025-01-20
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Chinese Zodiac
-categories: [ 'sample-code', 'java', 'logic' ]
+categories: [ 'java', 'logic', 'code samples' ]
 date: 2025-01-20
 ---
 

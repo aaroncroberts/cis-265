@@ -1,6 +1,6 @@
 ---
 title: Setup
-categories: ['guides', 'java' ]
+categories: [ 'java', 'guide' ]
 date: 2025-01-20
 ---
 

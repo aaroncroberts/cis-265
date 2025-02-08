@@ -1,6 +1,6 @@
 ---
 title: Modularize Code
-categories: ['guides', 'java' ]
+categories: ['java', 'code samples' ]
 date: 2025-01-20
 ---
 

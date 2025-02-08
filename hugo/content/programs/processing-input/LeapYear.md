@@ -1,6 +1,6 @@
 ---
 title: Leap Year
-categories: [ 'sample-code', 'java', 'math' ]
+categories: [ 'java', 'math', 'code samples' ]
 date: 2025-01-20
 ---
 

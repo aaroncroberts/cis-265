@@ -1,6 +1,6 @@
 ---
 title: String Work
-categories: [ 'sample-code', 'java', 'strings' ]
+categories: [ 'java', 'strings', 'code samples' ]
 date: 2025-01-20
 ---
 

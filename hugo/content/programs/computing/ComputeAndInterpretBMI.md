@@ -1,6 +1,6 @@
 ---
 title: Compute And Interpret BMI
-categories: [ 'sample-code', 'java', 'rounding' ]
+categories: [ 'java', 'rounding', 'code samples' ]
 date: 2025-01-20
 ---
 

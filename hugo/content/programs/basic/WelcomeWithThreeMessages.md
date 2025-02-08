@@ -1,6 +1,6 @@
 ---
 title: Welcome With Three Messages
-categories: [ 'sample-code', 'java' ]
+categories: [ 'java','code samples' ]
 date: 2025-01-20
 ---
 

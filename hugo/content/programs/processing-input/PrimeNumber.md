@@ -1,6 +1,6 @@
 ---
 title: Prime Number
-categories: [ 'sample-code', 'java', 'math' ]
+categories: [ 'java', 'math' 'samples' ]
 date: 2025-01-20
 ---
 

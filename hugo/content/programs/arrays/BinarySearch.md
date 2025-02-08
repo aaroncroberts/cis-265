@@ -1,6 +1,6 @@
 ---
 title: Binary Search
-categories: [ 'sample-code', 'java', 'arrays' ]
+categories: [ 'java', 'arrays','code samples' ]
 date: 2025-01-20
 ---
 
