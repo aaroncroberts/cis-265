@@ -1,6 +1,7 @@
 ---
 title: Incrementing
 categories: [ 'sample-code', 'java', 'numeric-operations' ]
+date: 2025-01-20
 ---
 
 ````java

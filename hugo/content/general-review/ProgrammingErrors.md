@@ -1,6 +1,7 @@
 ---
 title: Programming Errors
 categories: [ 'info', 'java', 'conventions' ]
+date: 2025-01-20
 ---
 # Overview
 

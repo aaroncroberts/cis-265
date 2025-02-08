@@ -1,6 +1,7 @@
 ---
 title: Test Void Method
 categories: [ 'sample-code', 'java', 'oop' ]
+date: 2025-01-20
 ---
 
 Provides an implementation that has a method with void return. Basics of encapsulation.

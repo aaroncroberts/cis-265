@@ -1,7 +1,7 @@
 ---
-title: Songs From File
+title: Direcotry Search
 categories: [ 'info', 'assignments' ]
-date: 2025-01-27
+date: 2025-02-03
 ---
 
 # Assignment 2 - Song from File

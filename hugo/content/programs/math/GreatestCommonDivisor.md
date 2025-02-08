@@ -1,6 +1,7 @@
 ---
 title: Greatest Common Divisor
 categories: [ 'sample-code', 'java', 'math' ]
+date: 2025-01-20
 ---
 
 Takes in two integers and determines the greatest common divisor.

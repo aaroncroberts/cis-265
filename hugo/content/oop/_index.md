@@ -1,3 +1,3 @@
 ---
-title: Object Oriented Programming
+title: OOP
 ---

@@ -1,6 +1,7 @@
 ---
 title: Random Characters
 categories: [ 'sample-code', 'java', 'math' ]
+date: 2025-01-20
 ---
 
 Generates random characters using the Math library.

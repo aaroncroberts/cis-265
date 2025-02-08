@@ -42,7 +42,7 @@
                         <i class="bi bi-calendar3"></i>
                         <time
                             datetime="{{ $.Page.Date.Format $.Site.Params.page.dateFormat }}"
-                            >{{ $.Page.Date.Format $.Site.Params.page.dateFormat }}
+                            >{{ $.Page.Date.Format ($.Site.Params.page.dateFormat | default  "Mon Jan 2, 2006")}}
                         </time>
                     </div>
                 {{ end }}

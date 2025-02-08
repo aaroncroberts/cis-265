@@ -103,7 +103,7 @@
         # The format of the `modifiedTime`.
         # Refer to page https://gohugo.io/functions/format/ for more detail.
         # Below is the default format, please do not remove it, unless you set `false` in `modifiedTime` field.
-        dateFormat = "2023-10-15T13:18:50"
+        dateFormat = "02 Jan 2006"
 
         # Should show the current git HEAD hash or not
         # To make this show up correctly, please follow the prerequisites in page
@@ -173,7 +173,7 @@
         # The format of the date.
         # Refer to page https://gohugo.io/functions/format/ for more detail.
         # Below is the default format, please do not remove it, unless you set `false` in `showDate` field.
-        dateFormat = "2023-10-15T13:18:50"
+        dateFormat = "02 Jan 2006"
 
         # Should show the estimate reading time in front of the page or not.
         showTimeToRead = true

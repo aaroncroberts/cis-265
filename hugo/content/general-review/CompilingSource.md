@@ -1,6 +1,7 @@
 ---
 title: Compiling Source
 categories: [ 'info', 'java', 'compiling' ]
+date: 2025-01-20
 ---
 
 # Overview

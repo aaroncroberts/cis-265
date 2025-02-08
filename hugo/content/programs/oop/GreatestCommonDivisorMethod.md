@@ -1,6 +1,7 @@
 ---
 title: Greatest Common Divisor Method
 categories: ['guides', 'java', 'oop' ]
+date: 2025-01-20
 ---
 
 Encapsulates the Greate Common Divisor logic into a method

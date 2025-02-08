@@ -1,6 +1,7 @@
 ---
 title: Test Pass Array
 categories: [ 'sample-code', 'java', 'arrays' ]
+date: 2025-01-20
 ---
 
 Working with passing Arrays

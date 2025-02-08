@@ -1,6 +1,7 @@
 ---
 title: Simple If Demo
 categories: [ 'sample-code', 'java', 'logic' ]
+date: 2025-01-20
 ---
 
 ````java

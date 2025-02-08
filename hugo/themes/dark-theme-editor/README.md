@@ -154,7 +154,7 @@ This will install the theme repository as a submodule in the `themes/dark-theme-
             # The format of the `modifiedTime`.
             # Refer to page https://gohugo.io/functions/format/ for more detail.
             # Below is the default format, please do not remove it, unless you set `false` in `modifiedTime` field.
-            dateFormat = "Jan 02 2006 15:04:05"
+            dateFormat = "Mon Jan 2, 2006"
 
             # Should show the current git HEAD hash or not
             # To make this show up correctly, please follow the prerequisites in page

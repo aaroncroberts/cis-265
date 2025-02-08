@@ -1,6 +1,7 @@
 ---
 title: HexDigit To Decimal
 categories: [ 'sample-code', 'java', 'conversion' ]
+date: 2025-01-20
 ---
 
 Converts a Hex digit to decimal

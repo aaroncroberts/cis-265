@@ -1,6 +1,7 @@
 ---
 title: Deck Of Cards
 categories: [ 'sample-code', 'java', 'arrays' ]
+date: 2025-01-20
 ---
 
 Working with Arrays as a deck of cards

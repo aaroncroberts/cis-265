@@ -1,6 +1,7 @@
 ---
 title: Compute Average
 categories: [ 'sample-code', 'java', 'math' ]
+date: 2025-01-20
 ---
 
 ````java

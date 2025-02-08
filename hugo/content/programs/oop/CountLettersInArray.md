@@ -1,6 +1,7 @@
 ---
 title: Count Letters In Array
 categories: ['guides', 'java', 'oop' ]
+date: 2025-01-20
 ---
 
 Generates random characters and counts letters in an array

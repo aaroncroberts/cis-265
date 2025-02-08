@@ -1,6 +1,7 @@
 ---
 title: Format Demo
 categories: [ 'sample-code', 'java', 'strings' ]
+date: 2025-01-20
 ---
 
 Working with `printf()` for formatting output

@@ -1,6 +1,7 @@
 ---
 title: Analyze Numbers
 categories: [ 'sample-code', 'java', 'arrays' ]
+date: 2025-01-20
 ---
 
 Creates an array and analyzes the input

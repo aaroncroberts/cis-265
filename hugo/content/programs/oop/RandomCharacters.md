@@ -1,6 +1,7 @@
 ---
 title: Random Characters
 categories: ['guides', 'java', 'oop' ]
+date: 2025-01-20
 ---
 
 Prints random characters

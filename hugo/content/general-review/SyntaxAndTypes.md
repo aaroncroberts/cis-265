@@ -1,6 +1,7 @@
 ---
 title: Syntax and Types
 categories: [ 'info', 'java', 'conventions' ]
+date: 2025-01-20
 ---
 # Overvierw
 

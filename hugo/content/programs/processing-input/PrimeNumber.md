@@ -1,6 +1,7 @@
 ---
 title: Prime Number
 categories: [ 'sample-code', 'java', 'math' ]
+date: 2025-01-20
 ---
 
 Displays a list of prime numbers using a constant to limit parts of the program

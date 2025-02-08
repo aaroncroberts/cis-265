@@ -1,6 +1,7 @@
 ---
 title: Polymorphism
 categories: [ 'info', 'java', 'oop' ]
+date: 2025-02-07
 ---
 
 # Overview

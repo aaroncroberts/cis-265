@@ -1,6 +1,7 @@
 ---
 title: Addition Quiz
 categories: [ 'sample-code', 'java', 'time' ]
+date: 2025-01-20
 ---
 
 ````java

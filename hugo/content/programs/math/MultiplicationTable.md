@@ -1,6 +1,7 @@
 ---
 title: Multiplication Table
 categories: [ 'sample-code', 'java', 'oop' ]
+date: 2025-01-20
 ---
 
 Outputs formatted multiplicaton tables.  Allows input from user to specify a value between 1-10.

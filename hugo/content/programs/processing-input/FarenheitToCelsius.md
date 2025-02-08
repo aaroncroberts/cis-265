@@ -1,6 +1,7 @@
 ---
 title: Farenheit to Celsius
 categories: [ 'sample-code', 'java', 'conversion' ]
+date: 2025-01-20
 ---
 
 ````java

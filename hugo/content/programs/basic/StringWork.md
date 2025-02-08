@@ -1,7 +1,10 @@
 ---
 title: String Work
 categories: [ 'sample-code', 'java', 'strings' ]
+date: 2025-01-20
 ---
+
+
 
 ````java
 /*   

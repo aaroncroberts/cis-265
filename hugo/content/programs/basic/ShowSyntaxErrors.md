@@ -1,6 +1,7 @@
 ---
 title: Show Syntax Errors
 categories: [ 'sample-code', 'java', 'compiling' ]
+date: 2025-01-20
 ---
 
 ````java

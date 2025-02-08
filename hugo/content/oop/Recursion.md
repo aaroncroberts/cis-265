@@ -1,4 +1,25 @@
+---
+title: 'Recursion'
+categories: [ 'java', 'oop' ]
+date: 2025-02-07
+---
+
 # Overview
+
+Recursion is a design principal in programming where a function / method references, or calls, itself. For example, a function called `myFunction` will make a call to `myFunction` in the body of the function definition.
+
+````java 
+    /**
+     * Recursive function
+     */
+    public static int doWork(int i){
+        if( i > 0 ){
+            return doWork(i - 1);
+        }
+
+        return 0;
+    }
+````
 
 ## Characteristics
 

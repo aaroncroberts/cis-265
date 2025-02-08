@@ -1,5 +1,7 @@
 ---
 title: Song
+categories: [ 'info', 'assignments' ]
+date: 2025-01-20
 ---
 
 # Assignment 1 - Song

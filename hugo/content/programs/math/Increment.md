@@ -1,6 +1,7 @@
 ---
 title: Increment
 categories: [ 'sample-code', 'java', 'oop' ]
+date: 2025-01-20
 ---
 
 Provides a sample for incrementing variables in and outside of methods.

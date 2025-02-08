@@ -1,6 +1,7 @@
 ---
 title: Assignments
 categories: [ 'info', 'course-details', 'assignments' ]
+date: 2025-02-08
 ---
 
 # Overview
@@ -58,8 +59,12 @@ The course consists of daily asignments, weekly recitation work, and homework as
 2. Solving a problem with recusion is slower than iteration? **true**
 
 **Code: 433927**
-1. 
-2. 
+Abstract class questions...
+
+2/5/2025
+
+**Code: 093437**
+Multi-choice abstract questions...
 
 # Assignments:
 

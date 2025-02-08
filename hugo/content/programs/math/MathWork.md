@@ -1,6 +1,7 @@
 ---
 title: Math Work
 categories: [ 'sample-code', 'java', 'math' ]
+date: 2025-01-20
 ---
 
 Examples working with the Math library

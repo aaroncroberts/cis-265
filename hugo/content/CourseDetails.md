@@ -1,6 +1,7 @@
 ---
 title: Course Details
 categories: [ 'info', 'course-details' ]
+date: 2025-02-08
 ---
 
 # CIS 265

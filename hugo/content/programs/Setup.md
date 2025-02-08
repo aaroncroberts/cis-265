@@ -1,5 +1,7 @@
 ---
 title: Setup
+categories: ['guides', 'java' ]
+date: 2025-01-20
 ---
 
 # Overview

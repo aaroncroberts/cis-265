@@ -8,7 +8,7 @@ Abstract classes are part of Obejct Oriented design patterns.  They allow inheri
 
 ## Abstract Class Discussion
 
-Questions about abstract classes
+In class wuestions about abstract classes:
 
 1. An abstract class can have a concrete sublcass: **true**
 2. An abstract class can have an abstract subclass: **true**

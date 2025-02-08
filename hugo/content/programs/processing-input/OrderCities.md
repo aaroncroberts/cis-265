@@ -1,6 +1,7 @@
 ---
 title: Order Cities
 categories: [ 'sample-code', 'java', 'search' ]
+date: 2025-01-20
 ---
 
 Orders two string entered at the prompt. String compare uses the compareTo() method, which performs a unicode character check.

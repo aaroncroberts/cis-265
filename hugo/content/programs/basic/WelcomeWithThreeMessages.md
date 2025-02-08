@@ -1,6 +1,7 @@
 ---
 title: Welcome With Three Messages
 categories: [ 'sample-code', 'java' ]
+date: 2025-01-20
 ---
 
 ````java

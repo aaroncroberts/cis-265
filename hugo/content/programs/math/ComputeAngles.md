@@ -1,6 +1,7 @@
 ---
 title: Compute Angles
 categories: [ 'sample-code', 'java', 'math' ]
+date: 2025-01-20
 ---
 
 Computes the angles of a triangle.  Input is collected as three x,y points.
