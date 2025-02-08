@@ -1,6 +1,6 @@
 ---
 title: Palindrome
-categories: [ 'java', 'search' 'samples' ]
+categories: [ 'java', 'search', 'code samples' ]
 date: 2025-01-20
 ---
 
