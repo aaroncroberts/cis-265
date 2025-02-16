@@ -10,6 +10,9 @@ ArrayList is useful when you do not have a size. Where an array requires a fixed
 
 * A List Interface is a linear data structure in a sequence.
 * ArrayList implements all the mebers in the interface
+* add() will add to the end of the list
+* List is dynamically sized which is bound by the items in the collection.
+* accessing items not already in the list will throw exceptions
 
 **List Interface:**
 

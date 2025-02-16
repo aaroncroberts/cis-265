@@ -46,3 +46,28 @@ Multi-choice abstract questions...
 2/10/2025 **Code: 149728**
 1. Given the following definition of the generic, public class Diet<T> extends Food {} **d**
 2. Which of the statements are illegal **d**
+
+2/11/2025 **Code: 837202**
+1. What will this print: 
+    ````
+        ListArray<String> list = new ListArray<String>();
+        list.add("Akron");
+        list.add(0, "Boston");
+        list.add(1, "Cleveland");
+        list.add(2, "Dallas");
+        System.out.println(list);
+    ````
+    **Boston, Akron, Cleveland, Dallas**
+2. What will this print:
+    ````
+        ListArray<String> list = new ListArray<String>();
+        list.add("Akron");
+        list.set(0, "Boston");
+        list.add(1, "Cleveland");
+        list.add(2, "Dallas");
+        System.out.println(list);
+    ````
+**Boston, Cleveland, Dallas**
+
+**Note:** lilst.add() without an index, adds the item to the end of the list;
+
