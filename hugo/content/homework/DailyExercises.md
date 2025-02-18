@@ -71,3 +71,17 @@ Multi-choice abstract questions...
 
 **Note:** lilst.add() without an index, adds the item to the end of the list;
 
+2/18/2025 **Code: 179875**
+1. Stack<String> st = new Stack<String>();
+st.push("We");
+st.push("are");
+st.push("the");
+st.pop() -> == "We"
+2. Queue<String> qu = new Linkedlist<String>();
+qu.offer("We");
+qu.offer("are");
+qu.offer("the");
+qu.poll() -> == "We"
+
+**Note: Queue differes from Stack, as Queue is FIFO, Stack is LIFO**
+
